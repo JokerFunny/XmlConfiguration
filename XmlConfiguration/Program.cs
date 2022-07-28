@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using System;
 using System.IO;
 
-namespace ConsoleApp4
+namespace XmlConfiguration
 {
     internal class Program
     {

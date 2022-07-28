@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApp4
+namespace XmlConfiguration
 {
     public class TestConfig
     {

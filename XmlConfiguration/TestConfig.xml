@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestConfig>
+	<TestOptions>
+		<Scope>openid</Scope>
+		<ResponseType>code</ResponseType>
+		<EndpointAddresses>
+			<Address>https://oauth2</Address>
+			<Address>https://test</Address>
+		</EndpointAddresses>
+		<IssuerAddress>?client_id={ClientId}</IssuerAddress>
+		<TestName>cognito</TestName>
+	</TestOptions>
+	<Applications>
+		<ApplicationTestSettings>
+			<ClientName>WebClient</ClientName>
+			<OpenIDConnectOptions>
+				<IssuerAddress>https://SignInCallBack</IssuerAddress>
+			</OpenIDConnectOptions>
+		</ApplicationTestSettings>
+		<ApplicationTestSettings>
+			<ClientName>WindowsClient</ClientName>
+			<Url>WindowsClient/WindowsClient.application</Url>
+			<OpenIDConnectOptions>
+			</OpenIDConnectOptions>
+		</ApplicationTestSettings>
+		<ApplicationTestSettings>
+			<ClientName>WindowsClient1</ClientName>
+			<Url>WindowsClient1/WindowsClient1.application</Url>
+			<OpenIDConnectOptions>
+			</OpenIDConnectOptions>
+		</ApplicationTestSettings>
+		<ApplicationTestSettings>
+			<ClientName>WindowsClient2</ClientName>
+			<Url>WindowsClient2/WindowsClient2.application</Url>
+			<OpenIDConnectOptions>
+				<Id>win_client_2</Id>
+				<Secret>win_client_2_secret</Secret>
+			</OpenIDConnectOptions>
+		</ApplicationTestSettings>
+	</Applications>
+</TestConfig>

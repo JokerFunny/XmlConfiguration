@@ -1,0 +1,38 @@
+{
+  "TestOptions": {
+    "Scope": "openid",
+    "ResponseType": "code",
+    "EndpointAddresses": [
+      "https://oauth2",
+      "https://test"
+    ],
+    "IssuerAddress": "?client_id={ClientId}",
+    "TestName": "test"
+  },
+  "Applications": [
+    {
+      "ClientName": "WebClient",
+      "TestOptions": {
+        "IssuerAddress": "https://SignInCallBack"
+      }
+    },
+    {
+      "ClientName": "WindowsClient",
+      "Url": "/WindowsClient.application",
+      "TestOptions": []
+    },
+    {
+      "ClientName": "WindowsClient1",
+      "Url": "/WindowsClient1.application",
+      "TestOptions": []
+    },
+    {
+      "ClientName": "WindowsClient2",
+      "Url": "/WindowsClient2.application",
+      "TestOptions": {
+        "Id": "win_client_2",
+        "Secret": "win_client_2_secret"
+      }
+    }
+  ]
+}

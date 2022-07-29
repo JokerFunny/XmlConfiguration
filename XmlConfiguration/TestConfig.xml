@@ -13,29 +13,29 @@
 	<Applications>
 		<ApplicationTestSettings>
 			<ClientName>WebClient</ClientName>
-			<OpenIDConnectOptions>
+			<TestOptions>
 				<IssuerAddress>https://SignInCallBack</IssuerAddress>
-			</OpenIDConnectOptions>
-		</ApplicationTestSettings>
+			</TestOptions>
+	</ApplicationTestSettings>
 		<ApplicationTestSettings>
 			<ClientName>WindowsClient</ClientName>
 			<Url>WindowsClient/WindowsClient.application</Url>
-			<OpenIDConnectOptions>
-			</OpenIDConnectOptions>
+			<TestOptions>
+			</TestOptions>
 		</ApplicationTestSettings>
 		<ApplicationTestSettings>
 			<ClientName>WindowsClient1</ClientName>
 			<Url>WindowsClient1/WindowsClient1.application</Url>
-			<OpenIDConnectOptions>
-			</OpenIDConnectOptions>
+			<TestOptions>
+			</TestOptions>
 		</ApplicationTestSettings>
 		<ApplicationTestSettings>
 			<ClientName>WindowsClient2</ClientName>
 			<Url>WindowsClient2/WindowsClient2.application</Url>
-			<OpenIDConnectOptions>
+			<TestOptions>
 				<Id>win_client_2</Id>
 				<Secret>win_client_2_secret</Secret>
-			</OpenIDConnectOptions>
+			</TestOptions>
 		</ApplicationTestSettings>
 	</Applications>
 </TestConfig>

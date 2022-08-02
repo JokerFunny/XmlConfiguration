@@ -8,7 +8,7 @@
 			<Address>https://test</Address>
 		</EndpointAddresses>
 		<IssuerAddress>?client_id={ClientId}</IssuerAddress>
-		<TestName>cognito</TestName>
+		<TestName>test</TestName>
 	</TestOptions>
 	<Applications>
 		<ApplicationTestSettings>
@@ -16,22 +16,22 @@
 			<TestOptions>
 				<IssuerAddress>https://SignInCallBack</IssuerAddress>
 			</TestOptions>
-	</ApplicationTestSettings>
+		</ApplicationTestSettings>
 		<ApplicationTestSettings>
 			<ClientName>WindowsClient</ClientName>
-			<Url>WindowsClient/WindowsClient.application</Url>
+			<Url>/WindowsClient.application</Url>
 			<TestOptions>
 			</TestOptions>
 		</ApplicationTestSettings>
 		<ApplicationTestSettings>
 			<ClientName>WindowsClient1</ClientName>
-			<Url>WindowsClient1/WindowsClient1.application</Url>
+			<Url>/WindowsClient1.application</Url>
 			<TestOptions>
 			</TestOptions>
 		</ApplicationTestSettings>
 		<ApplicationTestSettings>
 			<ClientName>WindowsClient2</ClientName>
-			<Url>WindowsClient2/WindowsClient2.application</Url>
+			<Url>/WindowsClient2.application</Url>
 			<TestOptions>
 				<Id>win_client_2</Id>
 				<Secret>win_client_2_secret</Secret>
